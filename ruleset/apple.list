@@ -1,0 +1,30 @@
+# Apple 官方 https://support.apple.com/zh-cn/HT210060
+DOMAIN-SUFFIX, icloud.com
+DOMAIN-SUFFIX, apple.com
+DOMAIN-SUFFIX, cdn-apple.com
+DOMAIN-SUFFIX, mzstatic.com
+DOMAIN-SUFFIX, vertexsmb.com
+DOMAIN-SUFFIX, appleschoolcontent.com
+DOMAIN-SUFFIX, apple-mapkit.com
+DOMAIN-SUFFIX, axm-usercontent-apple.com
+DOMAIN-SUFFIX, itunes.com
+DOMAIN-SUFFIX, apple-cloudkit.com
+DOMAIN-SUFFIX, digicert.com
+DOMAIN-SUFFIX, digicert.cn
+DOMAIN-SUFFIX, entrust.net
+DOMAIN-SUFFIX, apple-cloudkit.com
+DOMAIN-SUFFIX, apple-livephotoskit.com
+DOMAIN-SUFFIX, apzones.com
+DOMAIN-SUFFIX, icloud.com.cn
+DOMAIN-SUFFIX, icloud-content.com
+DOMAIN-SUFFIX, networking.apple
+IP-CIDR, 17.0.0.0/8 // 17.0.0.0/8 都已经分配给 Apple
+# Apple 个人发现的规则
+DOMAIN-SUFFIX, mzstatic.com // App Store & iTunes Images
+DOMAIN-SUFFIX, aaplimg.com
+DOMAIN-SUFFIX, apple.co
+DOMAIN-SUFFIX, itunes.apple.com
+DOMAIN-SUFFIX, lookup-api.apple.com // Dictionary
+DOMAIN-SUFFIX, me.com // icloud.com
+PROCESS-NAME, storedownloadd // Mac App Store
+USER-AGENT, com.apple.appstored* // iOS App Store
